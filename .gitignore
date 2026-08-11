@@ -1,0 +1,47 @@
+# Environment & secrets
+.env
+*.env.local
+tokens.txt
+*tokens*.txt
+
+# Scratch / one-off test scripts
+testopenaq.py
+test_*.py
+scratch_*.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated data (keep folder, ignore contents)
+data/reports/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
